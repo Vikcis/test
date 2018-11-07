@@ -1,0 +1,60 @@
+/* CSS Document */
+/*¹«ÓÃ*/
+.comWidth{width:1000px; margin-left:auto; margin-right:auto;}
+.leftArea{float:left;}
+.rightArea{float:right;}
+.hide{ display:none;}
+.show{display:block;}
+
+/*topBar*/
+.topBar{background-color: #E4E4E4; height:31px; line-height:31px;}
+.collection{background: url(../images/icon/collection.png) left center no-repeat; margin-left:19px; font-weight:bold;}
+.topBar a:hover{color:#FF0000;}
+
+/*logoBar*/
+.logoBar{background-color: #3373D3; height: 85px;}
+.logo{margin-left: 41px;margin-top:13px;}
+
+/*search*/
+.search_box{width:430px; margin-left:185px; padding-top:23px;/*margin-top:23px;*/ }
+.search_text{background-color: #FFFFFF;width:350px;height: 35px;line-height: 35px\9;/*css hack  \9 代表所有ie浏览器*/ padding: 0 5px; }
+.search_btn{background-color: #D98E05;color: #FFFFFF;width:70px;height:35px;font-size:14px;font-family:微软雅黑;}
+
+/*shop*/
+.shopCar{width:145px; height:35px; background-color:#DD9104; margin-top:23px; font:14px/35px "Micsoft YaHei","Î¢ÈíÑÅºÚ"; color:#FFFFFF; margin-right:59px;}
+.shopText{background: url(../images/icon/shopCar.png) 10px center no-repeat; width:87px; border-right:#C98102 solid 1px; text-indent:40px;}
+.shopNum{ width:27px; border-left:#FF9C01 solid 1px; text-align:right;padding-right:29px; background:url(../images/icon/三角.png) 33px center no-repeat; }
+
+/*nav*/
+.navBox{height:35px;background-color: #1369C0;color:#fff;font-family:微软雅黑;}
+.nav a.active{background-color: #4593FD;width: 40px;padding:0 28px;}
+.nav li {float: left;}
+.nav a {height: 35px;line-height:35px;display:inline-block;padding:0 20px;color:#fff;}
+.shopClass{width: 150px;margin-left: 48px;position: relative;}
+.shopClass h3{background: url(../images/icon/1.首页_r2_c2.gif) 92px center no-repeat;line-height: 35px;}
+.nav{width: 700px;}
+
+.shopClass_show{width: 150px;position: absolute;left:0;top:35px;}
+.shopClass_item{background-color: #4593FD;padding:10px 14px;border-bottom:1px solid #3487F2;border-top:1px solid #4593FD;height: 34px;}
+.shopClass_item dt{height: 24px;background: url(../images/icon/三角2.gif) right center no-repeat;}
+.shopClass_item dd{}
+.shopClass_item a{color: #FFFF;}
+.shopClass_item .b{font-size:14px;font-family:微软雅黑;color: #FFFFFF;font-weight: bold;}
+.shopClass_item .c{font-size:12px;font-family:新宋体;color: #FFFFFF;text-decoration :underline;width: 48px;height: 20px;background: url(../images/icon/alink.gif) left center no-repeat;display: inline-block;text-align: center;line-height: 20px;}
+.shopClass_item .d{font-size:12px;font-family:宋体;color: #FFFFFF;}
+
+/**/
+.shopList{position:absolute; top:2px; left:151px;width: 570PX;height: 368px;border:#E5E5E5 solid 1px;}
+.shopList_item{border-bottom:1px solid #E5E5E5;width: 570px;height:30px;padding-bottom: 10px;padding-top: 12px;float:left;}
+.shopList_item .e{color:#4B88DA; font-weight: bold;}
+.shopList_item dt{}
+.shopList_item .f{color:#656565;padding-left:10px;}
+.shopList_item dd{margin-top: -16px;padding-left: 70px;}
+
+.shopList_links_a {margin-left: 10px;margin-top: 14px;width: 105px;height: 26px;background:#2785E6;display:inline-block;}
+.shopList_links_gif{background:url(../images/icon/三角2.gif) 90px center no-repeat;}
+.shopList_links_a a{color:#FFFFFF;line-height: 26px;padding-left: 8px;}
+.shopList_links_b{margin-left: 10px;margin-top: 14px;width: 105px;height: 26px;background:#2785E6;display:inline-block;}
+.shopList_links_b a{color:#FFFFFF;line-height: 26px;padding-left: 8px;}
+
+.banner_bar{padding-left: 466px;}
